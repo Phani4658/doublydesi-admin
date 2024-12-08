@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "Categories": {
+      "type": "enumeration",
+      "enum": [
+        "Pickle",
+        "Milk",
+        "Oil",
+        "Ghee"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Quantity": {
+      "type": "decimal"
+    }
+  }
+}
